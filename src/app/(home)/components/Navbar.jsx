@@ -2,21 +2,29 @@
 import { AlignRight, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button"
-
+import Link from 'next/link';
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="min-h-[80px] bg-[#fbfbfb] shadow px-10 py-5 flex items-center lg:px-36 sticky top-0">
+    <div className="min-h-[80px] bg-[#fbfbfb] shadow px-10 py-5 flex items-center lg:px-36 sticky top-0 z-50">
       {/* Desktop Menu */}
       <nav className="hidden w-full sm:grid grid-cols-2 ">
+      <Link href="/">
         <div className="text-2xl font-bold">Descrify</div>
+        </Link>
         <div className="place-self-end">
           <ul className="flex gap-5 items-center">
+            <Link href="#feature">
             <li className="cursor-pointer">Features</li>
+            </Link>
+            <Link href="#pricing">
             <li className="cursor-pointer">Pricing</li>
+            </Link>
+            <Link href="#contact">
             <li className="cursor-pointer">Contact</li>
+            </Link>
             <Button className="bg-primary">Log in</Button>
           </ul>
         </div>
