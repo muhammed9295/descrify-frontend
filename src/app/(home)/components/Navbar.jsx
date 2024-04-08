@@ -3,6 +3,7 @@ import { AlignRight, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button"
 import Link from 'next/link';
+import Image from "next/image";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -12,7 +13,7 @@ function Navbar() {
       {/* Desktop Menu */}
       <nav className="hidden w-full sm:grid grid-cols-2 ">
       <Link href="/">
-        <div className="text-2xl font-bold">Descrify</div>
+        <Image src="/logo.png" width={200} height={100}  />
         </Link>
         <div className="place-self-end">
           <ul className="flex gap-5 items-center">

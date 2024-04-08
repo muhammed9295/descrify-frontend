@@ -1,12 +1,13 @@
 import { Separator } from "@/components/ui/separator";
 import { Github, Linkedin, Instagram, Facebook } from "lucide-react";
+import Image from "next/image";
 
 function Footer() {
   return (
     <div className="px-10 py-20 bg-[#c8c8c8] lg:px-36">
       <div className="grid gap-4  lg:grid-cols-12 ">
         <div className="lg:col-span-3">
-          <h1 className="text-3xl font-bold">Descrify</h1>
+          <Image src="/logo.png" width={200} height={100} />
           <div className="mt-10">
             <Separator className="my-3 bg-[#e1e1e1]" />
             <p>
