@@ -8,8 +8,8 @@ function Hero() {
             <h1 className="text-6xl font-extrabold leading-snug">Boost Your Amazon Sales with Descrify</h1>
             <p className="text-lg">Generate compelling titles and descriptions for your Amazon products with Descrify's AI-powered tool. Sell faster and increase your revenue.</p>
             <span className="flex gap-4">
-                <Button>Get Started</Button>
-                <Button variant="outline">Learn More</Button>
+                <Button className="w-28 bg-[#019b98] hover:bg-[#55ccc9]">Get Started</Button>
+                <Button variant="outline" className="w-28">Learn More</Button>
             </span>
         </div>
         <div className="flex items-center">

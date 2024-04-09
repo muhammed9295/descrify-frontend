@@ -17,7 +17,7 @@ function HowItWorks() {
                 <h3 className="text-xl font-bold text-center lg:text-start">Increase your sales with optimized titles and descriptions</h3>
                 <p className="text-base text-center lg:text-start">Our AI-powered tool generates titles and descriptions that are proven to attract more customers and boost your sales.</p>
             </span>
-            <Button variant="outline" className="w-36 hover:bg-primary hover:text-white">Learn More <ChevronRight /></Button>
+            <Button variant="outline" className="w-36 hover:bg-[#019b98] hover:text-white">Learn More <ChevronRight /></Button>
             </div>
 
             <div className="flex flex-col gap-8 items-center lg:items-start">
@@ -26,7 +26,7 @@ function HowItWorks() {
                 <h3 className="text-xl font-bold text-center lg:text-start">Save time and effort with Descrify</h3>
                 <p className="text-base text-center lg:text-start">Stop wasting hours trying to come up with catchy titles and compelling descriptions. Let Descrify do the work for you.</p>
             </span>
-            <Button variant="outline" className="w-36 hover:bg-primary hover:text-white">Sign Up <ChevronRight /></Button>
+            <Button variant="outline" className="w-36 hover:bg-[#019b98] hover:text-white">Sign Up <ChevronRight /></Button>
             </div>
 
             <div className="flex flex-col gap-8 items-center lg:items-start">
@@ -35,7 +35,7 @@ function HowItWorks() {
                 <h3 className="text-xl font-bold text-center lg:text-start">Get ahead of your competition with Descrify</h3>
                 <p className="text-base text-center lg:text-start">Stand out from the crowd with titles and descriptions that are optimized for search engines and customer engagement.</p>
             </span>
-            <Button variant="outline" className="w-36 hover:bg-primary hover:text-white">Sign Up <ChevronRight /></Button>
+            <Button variant="outline" className="w-36 hover:bg-[#019b98] hover:text-white">Sign Up <ChevronRight /></Button>
             </div>
         </div>
     </div>

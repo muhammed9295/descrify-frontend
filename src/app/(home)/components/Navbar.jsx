@@ -26,7 +26,7 @@ function Navbar() {
             <Link href="#contact">
             <li className="cursor-pointer">Contact</li>
             </Link>
-            <Button className="bg-primary">Log in</Button>
+            <Button className="w-28 bg-[#019b98] hover:bg-[#55ccc9]">Log in</Button>
           </ul>
         </div>
       </nav>

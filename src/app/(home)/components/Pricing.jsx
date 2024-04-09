@@ -18,7 +18,7 @@ function Pricing() {
           defaultValue="monthly"
           className="mx-auto flex flex-col items-center gap-5"
         >
-          <TabsList className="">
+          <TabsList className="bg-[#55ccc9]">
             <TabsTrigger value="monthly">Monthly</TabsTrigger>
             <TabsTrigger value="yearly">Yearly</TabsTrigger>
           </TabsList>
