@@ -4,8 +4,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import axios from "axios";
-import { baseUrl } from "@/url";
+
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -48,9 +47,11 @@ function Navbar() {
                 </Button>
               </Link>
             ) : (
-              <Button className="w-28 bg-[#019b98] hover:bg-[#55ccc9]">
+              <Link className="w-28" href="/login">
+              <Button className="w-full bg-[#019b98] hover:bg-[#55ccc9]">
                 Log in
               </Button>
+              </Link>
             )}
           </ul>
         </div>

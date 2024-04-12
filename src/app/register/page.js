@@ -110,9 +110,6 @@ function Register() {
                     SignUp
                   </Button>
                 )}
-                {/* <Button type="submit" className="w-full bg-[#019b98] hover:bg-[#55ccc9]">
-                  SignUp
-                </Button> */}
                 <p className="text-gray-400 text-sm">or</p>
                 <Link href="/login" className="w-full">
                   <Button className="bg-[#014e60] hover:bg-[#3f7a8d] w-full">
@@ -121,6 +118,7 @@ function Register() {
                 </Link>
               </span>
             </form>
+            <Toaster />
           </div>
         </div>
       </div>
