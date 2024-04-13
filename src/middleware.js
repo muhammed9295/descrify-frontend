@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 
 export function middleware(request) {
-    const accessToken = request.cookies.get("accessToken")?.value;
+    // const accessToken = request.cookies.get("accessToken")?.value;
+    const accessToken = localStorage.getItem("accessToken");
   
     const loggedUserRestrictedPaths =
       request.nextUrl.pathname === "/login" ||
