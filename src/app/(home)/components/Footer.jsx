@@ -7,7 +7,7 @@ function Footer() {
     <div className="px-10 py-20 bg-[#c8c8c8] lg:px-36">
       <div className="grid gap-4  lg:grid-cols-12 ">
         <div className="lg:col-span-3">
-          <Image src="/logo.png" width={200} height={100} />
+          <Image src="/logo.png" width={200} height={100} alt="logo" />
           <div className="mt-10">
             <Separator className="my-3 bg-[#e1e1e1]" />
             <p>

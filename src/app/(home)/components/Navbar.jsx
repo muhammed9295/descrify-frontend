@@ -27,10 +27,10 @@ function Navbar() {
       {/* Desktop Menu */}
       <nav className="hidden w-full sm:grid grid-cols-2 ">
         <Link href="/">
-          <Image src="/logo.png" width={200} height={100} />
+          <Image src="/logo.png" width={200} height={100} alt="logo" />
         </Link>
         <div className="place-self-end">
-          <ul className="flex gap-5 items-center">
+          <ul className="flex gap-10 items-center">
             <Link href="#feature">
               <li className="cursor-pointer">Features</li>
             </Link>

@@ -33,7 +33,7 @@ function Login() {
         toast.success("Login successful");
         localStorage.setItem("accessToken", response.data.data.accessToken);
         localStorage.setItem("refreshToken", response.data.data.refreshToken);
-        router.push("/");
+        router.push("/dashboard");
       } else {
         toast.error("Login failed. Please try again.");
       }

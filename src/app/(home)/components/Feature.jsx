@@ -13,7 +13,7 @@ function Feature() {
             <p className="text-lg w-5/6">Descrify's AI-powered tools help Amazon sellers generate compelling titles and descriptions, boosting their product visibility and sales.</p>
           </div>
           <div className="">
-            <Image src="/feature-image.png" width={1000} height={1000} />
+            <Image src="/feature-image.png" width={1000} height={1000} alt="feature-image" />
           </div>
         </div>
     </div>

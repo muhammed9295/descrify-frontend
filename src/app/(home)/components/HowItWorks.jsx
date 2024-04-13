@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { TrendingUp, ChevronRight, Hourglass, Trophy } from 'lucide-react';
+import Link from 'next/link';
 
 function HowItWorks() {
   return (
@@ -26,7 +27,9 @@ function HowItWorks() {
                 <h3 className="text-xl font-bold text-center lg:text-start">Save time and effort with Descrify</h3>
                 <p className="text-base text-center lg:text-start">Stop wasting hours trying to come up with catchy titles and compelling descriptions. Let Descrify do the work for you.</p>
             </span>
+            <Link href="/register">
             <Button variant="outline" className="w-36 hover:bg-[#019b98] hover:text-white">Sign Up <ChevronRight /></Button>
+            </Link>
             </div>
 
             <div className="flex flex-col gap-8 items-center lg:items-start">
@@ -35,7 +38,9 @@ function HowItWorks() {
                 <h3 className="text-xl font-bold text-center lg:text-start">Get ahead of your competition with Descrify</h3>
                 <p className="text-base text-center lg:text-start">Stand out from the crowd with titles and descriptions that are optimized for search engines and customer engagement.</p>
             </span>
+            <Link href="/register">
             <Button variant="outline" className="w-36 hover:bg-[#019b98] hover:text-white">Sign Up <ChevronRight /></Button>
+            </Link>
             </div>
         </div>
     </div>

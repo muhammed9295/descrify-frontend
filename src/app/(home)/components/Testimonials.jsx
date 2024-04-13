@@ -63,6 +63,7 @@ function Testimonials() {
                   src="/noavatar.png"
                   width={80}
                   height={80}
+                  alt="user-image"
                   className="rounded-full shadow-md"
                 />
                 <span>
