@@ -43,7 +43,7 @@ function Register() {
     };
 
     try {
-      const response = await axios.post(`${baseUrl}/users/register`, userData, {
+      const response = await axios.post(`${baseUrl}/api/users/register`, userData, {
         headers: {
           "Content-Type": "application/json",
         },

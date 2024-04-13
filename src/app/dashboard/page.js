@@ -21,7 +21,7 @@ function Dashboard() {
 
     try {
       const response = await axios.get(
-        `${baseUrl}/conversation/generate-response`,
+        `${baseUrl}/api/conversation/generate-response`,
         {
           params: {
             productName: productName,

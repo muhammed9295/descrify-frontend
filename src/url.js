@@ -1,1 +1,1 @@
-export const baseUrl = `https://descrify-app-mrbg6.ondigitalocean.app/api`
+export const baseUrl = `https://descrify-app-mrbg6.ondigitalocean.app`

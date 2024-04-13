@@ -19,7 +19,7 @@ function Conversation({ params }) {
     const fetchConversation = async () => {
       try {
         const response = await axios.get(
-          `${baseUrl}/conversation/get-single-conversation/${id}`,
+          `${baseUrl}/api/conversation/get-single-conversation/${id}`,
           { withCredentials: true }
         );
 
